@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37b56dbd-61e0-492b-a992-cb482943ece1" name="Changes" comment="" />
+    <list default="true" id="37b56dbd-61e0-492b-a992-cb482943ece1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/composite/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/ComponentGrafic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMPS_Lab2/adapter/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMPS_Lab2/adapter/EmployeeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMPS_Lab2/adapter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMPS_Lab2/adapter/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMPS_Lab2/adapter/SalaryAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMPS_Lab2/adapter/SalaryEuro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMPS_Lab2/adapter/SalaryEuro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMPS_Lab2/composite/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMPS_Lab2/composite/VoluntarAIESEC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/Salary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/EmployeeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/EuroToLeiAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/SalaryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/SalaryLei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/SalaryEuro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/SalaryEuro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composite/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composite/VoluntarAIESEC.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -27,20 +50,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laboratoare_TMPS&amp;PR/TMPS_Lab1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="flyweight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decorator.Main" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.Client" />
       <module name="TMPS_Lab2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="decorator.*" />
+          <option name="PATTERN" value="composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decorator.PizzaStore" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.Main" />
       <module name="TMPS_Lab2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="decorator.*" />
+          <option name="PATTERN" value="adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.PizzaStore" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +143,17 @@
       <updated>1649073082935</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,16 +1,16 @@
 package adapter;
 
-public class EmployeeAdapter implements SalaryAdapter {
+public class EuroToLeiAdaptor implements SalaryLei {
     private SalaryEuro money;
 
-    public EmployeeAdapter(SalaryEuro money) {
+    public EuroToLeiAdaptor(SalaryEuro money) {
         this.money = money;
     }
 
     @Override
-    public double getMoney() {
+    public double getAmount() {
 
-        return convertEurotoLei(money.getMoney());
+        return convertEurotoLei(money.getAmount());
     }
 
     private double convertEurotoLei(double m) {

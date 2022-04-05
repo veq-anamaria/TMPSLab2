@@ -1,5 +1,5 @@
 package adapter;
 
-public interface SalaryEuro {
+public interface SalaryLei {
     double getAmount();
 }
